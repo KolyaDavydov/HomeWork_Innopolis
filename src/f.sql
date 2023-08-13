@@ -1,0 +1,5 @@
+SELECT name
+FROM course
+UNION
+SELECT name FROM student
+ORDER BY 1 DESC 
