@@ -65,28 +65,35 @@ $$ LANGUAGE SQL;
 UPDATE stipendia SET stipuxa = (SELECT fn_stippendia(student_id));
 
 
--- тригеррная функции которая обновляет значение общего балла и стиппендии после добавления  значений в тбалицу 'activity_scores'
-CREATE OR REPLACE FUNCTION calculate_scholarship ()
+-- тригеррная функции которая обновляет значение 'total_score' после добавления  значений в тбалицу 'activity_scores' посредством цикла
+CREATE OR REPLACE FUNCTION update_total_score ()
 RETURNS TRIGGER 
 AS $update_scholarship_trigger$
+DECLARE record RECORD;
 	BEGIN
-		UPDATE students SET total_score = (SELECT fn_total(id));	
-		UPDATE stipendia SET stipuxa = (SELECT fn_stippendia(student_id));
-		RETURN NULL;
+		FOR record IN SELECT * FROM activity_scores WHERE student_id = NEW.student_id LOOP 
+			UPDATE students SET total_score = (SELECT fn_total(NEW.student_id)) WHERE students.id = NEW.student_id;	
+			UPDATE stipendia SET stipuxa = (SELECT fn_stippendia(NEW.student_id)) WHERE stipendia.student_id = NEW.student_id;
+		END LOOP;
+	RETURN NULL;
 	END;
 $update_scholarship_trigger$ LANGUAGE plpgsql;
 
-CREATE TRIGGER update_scholarship_trigger
+CREATE TRIGGER update_total_score_trigger
 AFTER INSERT ON activity_scores
-FOR EACH ROW EXECUTE FUNCTION calculate_scholarship();
+FOR EACH ROW EXECUTE FUNCTION update_total_score();
 
 -- для проверки:
--- select * from stipendia;
+-- SELECT * FROM students;
 
+-- INSERT INTO students (id, name) VALUES
+-- 		(5, 'Игорь'),
+-- 		(6, 'Рассул');
+	
 -- INSERT INTO activity_scores (student_id, activity_type, score) VALUES
---     (1, 'Exam', 100);
+-- 		(5, 'Homework', 100),
+-- 		(5, 'Exam', 99),
+-- 		(6, 'Homework', 85),
+-- 		(6, 'Exam', 82);
  
--- SELECT * FROM stipendia;
-
-
-
+-- SELECT * FROM students;
