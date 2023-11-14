@@ -1,0 +1,228 @@
+<mxfile host="Electron" modified="2023-11-14T09:50:05.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="SrJAi80WfIBDNkblcDBf" version="22.0.3" type="device">
+  <diagram name="Страница — 1" id="nyuCE8ARZtUQCP4gCx82">
+    <mxGraphModel dx="932" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ij_Kzmd3UUCDIIQPWrM3-68" target="ij_Kzmd3UUCDIIQPWrM3-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-68" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="270" y="30" width="160" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-65" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry y="30" width="230" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-1" value="Датчики" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ij_Kzmd3UUCDIIQPWrM3-2" target="ij_Kzmd3UUCDIIQPWrM3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-2" value="Месторождения" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-13" value="Sensors" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="50" y="433" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-13">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-15" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-14">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-16" value="sensor_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-14">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-13">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-18" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-17">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-19" value="sensor_name" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-17">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-20" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-13">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-21" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-20">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-22" value="sensor_type" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-20">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-13">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-24" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-23">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-25" value="min_value" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-23">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-26" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-13">
+          <mxGeometry y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-27" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-26">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-28" value="max_value" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-26">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-29" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Датчики&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="403" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-43" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Месторождения&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="403" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-44" value="&lt;div class=&quot;line number1 index0 alt2&quot; style=&quot;line-height: 21px; text-align: left; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: 400; font-style: normal; font-size: 14px; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; border-radius: 0px !important; background-image: none !important; background-position: initial !important; background-size: initial !important; background-repeat: initial !important; background-attachment: initial !important; background-origin: initial !important; background-clip: initial !important; background-color: var(--code-bgcolor) !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em !important; position: static !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;js plain&quot; style=&quot;line-height: 21px; font-family: var(--code-font-family) !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; text-align: left !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; font-weight: normal !important; font-style: normal !important; font-size: var(--code-font-size) !important; min-height: auto !important; color: var(--code-plain) !important;&quot;&gt;{&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number2 index1 alt1&quot; style=&quot;line-height: 21px; text-align: left; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: 400; font-style: normal; font-size: 14px; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; border-radius: 0px !important; background-image: none !important; background-position: initial !important; background-size: initial !important; background-repeat: initial !important; background-attachment: initial !important; background-origin: initial !important; background-clip: initial !important; background-color: var(--code-bgcolor) !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em !important; position: static !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;js spaces&quot; style=&quot;line-height: 21px; font-family: var(--code-font-family) !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; text-align: left !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; font-weight: normal !important; font-style: normal !important; font-size: var(--code-font-size) !important; min-height: auto !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;js string&quot; style=&quot;line-height: 21px; font-family: var(--code-font-family) !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; text-align: left !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; font-weight: normal !important; font-style: normal !important; font-size: var(--code-font-size) !important; min-height: auto !important; color: var(--code-string) !important;&quot;&gt;&quot;oilfields&quot;&lt;/code&gt;&lt;code class=&quot;js plain&quot; style=&quot;line-height: 21px; font-family: var(--code-font-family) !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; text-align: left !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; font-weight: normal !important; font-style: normal !important; font-size: var(--code-font-size) !important; min-height: auto !important; color: var(--code-plain) !important;&quot;&gt;:&lt;/code&gt;&lt;span style=&quot;background-color: initial; color: var(--code-plain); font-family: var(--code-font-family); font-size: var(--code-font-size);&quot;&gt;[&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line number6 index5 alt1&quot; style=&quot;line-height: 21px; text-align: left; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: 400; font-style: normal; font-size: 14px; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; border-radius: 0px !important; background-image: none !important; background-position: initial !important; background-size: initial !important; background-repeat: initial !important; background-attachment: initial !important; background-origin: initial !important; background-clip: initial !important; background-color: var(--code-bgcolor) !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em !important; position: static !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;js spaces&quot; style=&quot;line-height: 21px; font-family: var(--code-font-family) !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; text-align: left !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; font-weight: normal !important; font-style: normal !important; font-size: var(--code-font-size) !important; min-height: auto !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;js string&quot; style=&quot;line-height: 21px; font-family: var(--code-font-family) !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; text-align: left !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; font-weight: normal !important; font-style: normal !important; font-size: var(--code-font-size) !important; min-height: auto !important; color: var(--code-string) !important;&quot;&gt;&quot;oilfield_id&quot;&lt;/code&gt;&lt;code class=&quot;js plain&quot; style=&quot;line-height: 21px; font-family: var(--code-font-family) !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; text-align: left !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; font-weight: normal !important; font-style: normal !important; font-size: var(--code-font-size) !important; min-height: auto !important; color: var(--code-plain) !important;&quot;&gt;,&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number6 index5 alt1&quot; style=&quot;line-height: 21px; text-align: left; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: 400; font-style: normal; font-size: 14px; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; border-radius: 0px !important; background-image: none !important; background-position: initial !important; background-size: initial !important; background-repeat: initial !important; background-attachment: initial !important; background-origin: initial !important; background-clip: initial !important; background-color: var(--code-bgcolor) !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em !important; position: static !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;js plain&quot; style=&quot;line-height: 21px; font-family: var(--code-font-family) !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; text-align: left !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; font-weight: normal !important; font-style: normal !important; font-size: var(--code-font-size) !important; min-height: auto !important; color: var(--code-plain) !important;&quot;&gt;&lt;code style=&quot;line-height: 21px; border: 0px !important; color: var(--code-string) !important; font-size: var(--code-font-size) !important; background: none !important; font-family: var(--code-font-family) !important; border-radius: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; min-height: auto !important;&quot; class=&quot;js string&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&quot;name&quot;&lt;/code&gt;&lt;code style=&quot;line-height: 21px; border: 0px !important; color: var(--code-plain) !important; font-size: var(--code-font-size) !important; background: none !important; font-family: var(--code-font-family) !important; border-radius: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; min-height: auto !important;&quot; class=&quot;js plain&quot;&gt;,&lt;/code&gt;&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number8 index7 alt1&quot; style=&quot;line-height: 21px; text-align: left; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: 400; font-style: normal; font-size: 14px; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; border-radius: 0px !important; background-image: none !important; background-position: initial !important; background-size: initial !important; background-repeat: initial !important; background-attachment: initial !important; background-origin: initial !important; background-clip: initial !important; background-color: var(--code-bgcolor) !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em !important; position: static !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;js spaces&quot; style=&quot;line-height: 21px; font-family: var(--code-font-family) !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; text-align: left !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; font-weight: normal !important; font-style: normal !important; font-size: var(--code-font-size) !important; min-height: auto !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;js string&quot; style=&quot;line-height: 21px; font-family: var(--code-font-family) !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; text-align: left !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; font-weight: normal !important; font-style: normal !important; font-size: var(--code-font-size) !important; min-height: auto !important; color: var(--code-string) !important;&quot;&gt;&quot;list_sensors_id&quot;[...&lt;/code&gt;&lt;span style=&quot;background-color: initial; color: var(--code-string); font-family: var(--code-font-family); font-size: var(--code-font-size);&quot;&gt;]&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line number9 index8 alt2&quot; style=&quot;line-height: 21px; text-align: left; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: 400; font-style: normal; font-size: 14px; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; border-radius: 0px !important; background-image: none !important; background-position: initial !important; background-size: initial !important; background-repeat: initial !important; background-attachment: initial !important; background-origin: initial !important; background-clip: initial !important; background-color: var(--code-bgcolor) !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em !important; position: static !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;js spaces&quot; style=&quot;line-height: 21px; font-family: var(--code-font-family) !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; text-align: left !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; font-weight: normal !important; font-style: normal !important; font-size: var(--code-font-size) !important; min-height: auto !important;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/code&gt;&lt;code class=&quot;js plain&quot; style=&quot;line-height: 21px; font-family: var(--code-font-family) !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; text-align: left !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; font-weight: normal !important; font-style: normal !important; font-size: var(--code-font-size) !important; min-height: auto !important; color: var(--code-plain) !important;&quot;&gt;]&lt;/code&gt;&lt;/div&gt;&lt;div class=&quot;line number10 index9 alt1&quot; style=&quot;line-height: 21px; text-align: left; font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: 400; font-style: normal; font-size: 14px; color: rgb(0, 0, 0); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; border-radius: 0px !important; background-image: none !important; background-position: initial !important; background-size: initial !important; background-repeat: initial !important; background-attachment: initial !important; background-origin: initial !important; background-clip: initial !important; background-color: var(--code-bgcolor) !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 0.5em !important; position: static !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; min-height: auto !important;&quot;&gt;&lt;code class=&quot;js plain&quot; style=&quot;line-height: 21px; font-family: var(--code-font-family) !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; text-align: left !important; vertical-align: baseline !important; width: auto !important; box-sizing: content-box !important; font-weight: normal !important; font-style: normal !important; font-size: var(--code-font-size) !important; min-height: auto !important; color: var(--code-plain) !important;&quot;&gt;}&lt;/code&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="433" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.269;exitY=0.556;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ij_Kzmd3UUCDIIQPWrM3-44" target="ij_Kzmd3UUCDIIQPWrM3-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="493" as="sourcePoint" />
+            <mxPoint x="360" y="443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-47" value="Data" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="433" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-51" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-47">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-52" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-51">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-53" value="oilfield_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-51">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-54" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-47">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-55" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-54">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-56" value="sensor_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-54">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-57" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-47">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-58" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-57">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-59" value="value_sensor" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="ij_Kzmd3UUCDIIQPWrM3-57">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-60" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Потоковые данные с датчиков&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="393" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;entryX=1.009;entryY=0.457;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ij_Kzmd3UUCDIIQPWrM3-61" target="ij_Kzmd3UUCDIIQPWrM3-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-61" value="Потоковые данные&lt;br&gt;с датчиков" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="300" y="70" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-67" value="Начальный слой" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="260" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-69" value="Промежуточный слой" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="284" y="260" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ij_Kzmd3UUCDIIQPWrM3-70" target="ij_Kzmd3UUCDIIQPWrM3-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-70" value="Spark" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="320" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-78" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="393" as="sourcePoint" />
+            <mxPoint x="290" y="343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-79" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="390" as="sourcePoint" />
+            <mxPoint x="400" y="343" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-80" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="400" as="sourcePoint" />
+            <mxPoint x="310" y="363" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-81" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="407" as="sourcePoint" />
+            <mxPoint x="350" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ij_Kzmd3UUCDIIQPWrM3-82" target="ij_Kzmd3UUCDIIQPWrM3-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-82" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="540" y="30" width="160" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-83" value="Слой витринных данных" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="260" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-84" value="Потоковые данные&lt;br&gt;с датчиков" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="560" y="80" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-86" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;1&lt;/b&gt;&lt;/font&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-87" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/font&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="384" y="220" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-88" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;3&lt;/b&gt;&lt;/font&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="325" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-89" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;4&lt;/b&gt;&lt;/font&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="220" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-90" value="Grafana" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="110" width="83" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ij_Kzmd3UUCDIIQPWrM3-92" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;5&lt;/b&gt;&lt;/font&gt;" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
